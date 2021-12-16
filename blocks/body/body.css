@@ -1,0 +1,17 @@
+.body {
+  background-color: #2a2c2f;
+  font-family: "Inter", Arial, sans-serif;
+  color: #ffffff;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+a[class$="__link"] {
+  transition: 1s;
+}
+a[class$="__link"]:hover {
+  opacity: 0.8;
+}
