@@ -2,3 +2,18 @@
   margin: auto;
   width: calc(100% - 96px);
 }
+@media screen and (max-width: 1200px) {
+  .cover {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1016px) {
+  .cover {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 760px) {
+  .cover {
+    width: 100%;
+  }
+}

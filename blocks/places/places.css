@@ -2,3 +2,18 @@
   margin: auto;
   width: calc(100% - 296px);
 }
+@media screen and (max-width: 1200px) {
+  .places {
+    width: calc(100% - 96px);
+  }
+}
+@media screen and (max-width: 1016px) {
+  .places {
+    width: calc(100% - 48px);
+  }
+}
+@media screen and (max-width: 760px) {
+  .places {
+    width: 100%;
+  }
+}

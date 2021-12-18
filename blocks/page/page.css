@@ -1,3 +1,34 @@
 .page {
   max-width: 1280px;
+    background-color: #2a2c2f;
+    font-family: "Inter", Arial, sans-serif;
+    color: #ffffff;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  a[class$="__link"] {
+    transition: 1s;
+  }
+  a[class$="__link"]:hover {
+    opacity: 0.8;
+  }
+@media screen and (max-width: 1200px) {
+  .page {
+    max-width: 1024px;
+  }
+}
+@media screen and (max-width: 1016px) {
+  .page {
+    max-width: 768px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .page {
+    max-width: 320px;
+  }
 }
