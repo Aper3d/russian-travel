@@ -6,9 +6,6 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
   }
   a[class$="__link"] {
     transition: 1s;
