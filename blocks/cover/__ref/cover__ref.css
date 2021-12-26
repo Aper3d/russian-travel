@@ -1,7 +1,7 @@
 .cover__ref {
   width: 100%;
   min-height: 740px;
-  background-image: url("../../../img/cover/cover-trains.jpg");
+  background-image: url("../../../images/cover/cover-trains.jpg");
   background-size: cover;
   display: flex;
   flex-direction: column;

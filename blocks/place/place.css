@@ -15,12 +15,14 @@
 }
 @media screen and (max-width: 1016px) {
   .place {
+    padding-bottom: 72px;
     grid-template-columns: 340px 1fr;
     gap: 48px 28px;
   }
 }
 @media screen and (max-width: 760px) {
   .place {
+    padding-bottom: 50px;
     grid-template-columns: 1fr;
     gap: 32px;
   }
